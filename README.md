@@ -1,30 +1,29 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto creado con Vite, usando React y TypeScript.
 
-Currently, two official plugins are available:
+Este proyecto es una prueba utilizando Vite, React, TypeScript y TailwindCSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El proyecto consiste en una tienda de productos, donde se pueden agregar productos al carrito y ver el total de la compra.
 
-## Expanding the ESLint configuration
+## Instalación
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+`npm i`
 
-- Configure the top-level `parserOptions` property like this:
+## Ejecución
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+`npm run dev`
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Compilación
+
+`npm run build`
+
+## Estructura de carpetas
+
+- `src`: Contiene el código fuente del proyecto.
+  - `components`: Contiene los componentes de React.
+  - `context`: Contiene los contextos de React.
+  - `interfaces`: Contiene las interfaces de TypeScript.
+  - `pages`: Contiene las páginas de la aplicación.
+  - `hooks`: Contiene los hooks personalizados.
+  - `utils`: Contiene funciones de utilidad.
